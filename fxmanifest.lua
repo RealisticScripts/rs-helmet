@@ -11,6 +11,7 @@ license 'MIT'
 
 
 shared_scripts {
+    '@ox_lib/init.lua',
     'config.lua'
 }
 

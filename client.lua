@@ -17,18 +17,11 @@ local function notify(message, notifyType)
         return
     end
 
-    if lib and lib.notify then
-        lib.notify({
-            title = 'Helmet Toggle',
-            description = message,
-            type = notifyType or 'inform'
-        })
-        return
-    end
-
-    BeginTextCommandThefeedPost('STRING')
-    AddTextComponentSubstringPlayerName(message)
-    EndTextCommandThefeedPostTicker(false, false)
+    lib.notify({
+        title = 'Helmet Toggle',
+        description = message,
+        type = notifyType or 'inform'
+    })
 end
 
 local function getPlayerPedSafe()

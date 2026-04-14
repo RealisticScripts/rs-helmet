@@ -11,7 +11,7 @@ Config.EnableKeybind = true
 Config.KeybindCommand = 'helmet'
 Config.DefaultKeybind = 'F2'
 
--- Shows a GTA notification when the helmet is toggled.
+-- Shows an ox_lib notification when the helmet is toggled.
 Config.Notify = true
 
 -- How often the script checks and removes auto-applied helmets.

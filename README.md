@@ -7,13 +7,14 @@ RS Helmet is a FiveM resource that lets players manually choose whether they wea
 - Blocks automatic helmet behavior
 - Manual helmet toggle command
 - Works on or off a motorcycle
-- Uses `GTA` notifications
+- Uses `ox_lib` notifications
 - Configurable keybind
 - Includes unified version check
 
 ## Requirements
 
 - FiveM server using `lua54 'yes'`
+- [`ox_lib`](https://github.com/overextended/ox_lib)
 
 ## Installation
 
