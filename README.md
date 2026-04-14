@@ -70,4 +70,4 @@ Current defaults:
 
 ## License
 
-Released under the MIT License. See `LICENSE` for details.
+MIT License © 2026 Realistic Scripts
